@@ -1,0 +1,37 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card h6 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.card a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
